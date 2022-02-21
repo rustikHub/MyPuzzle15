@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="20dp"
+    android:background="@drawable/ramka"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/textNumbers"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:background="@drawable/ramka2"
+        android:fontFamily="@font/text_font"
+        android:gravity="center"
+        android:text="000"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4.2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/scoreName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/text_font"
+            android:text="Habibulla"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/scoreTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/text_font"
+            android:text="Time : 00:00"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/scoreMoves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/text_font"
+            android:text="Qadam : 000"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

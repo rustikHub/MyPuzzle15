@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="qora1">#07050A</color>
+    <color name="qora2">#262626</color>
+    <color name="daraxt1">#CF9F5F</color>
+    <color name="daraxt2">#ECD3AB</color>
+    <color name="daraxt3">#65381B</color>
+</resources>
